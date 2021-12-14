@@ -1,0 +1,86 @@
+
+body{
+  background-image: url("castle.jpeg");
+  background-size: cover;
+
+}
+
+#btn{
+  flex: 0 0 0rem;
+}
+
+.prenom{
+  text-align: left;
+  padding-top: 100px;
+  color: rgb(223, 195, 195);
+  font-family: Comforter Brush;
+  font-style: italic;
+  font-size: 100px;
+}
+
+.nom{
+  text-align: left;
+  font-style: italic;
+  color: rgb(223, 195, 195);
+  font-family: Comforter Brush;
+  font-size: 100px;
+  line-height: 0px;
+}
+
+.etudiant{
+  text-align: left;
+  font-style:oblique;
+  color: rgb(255, 255, 255);
+  font-family: Courgette;
+  line-height: normal;
+}
+
+nav{
+  min-height: 10vh;
+  top:0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 1%;
+}
+
+nav li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+nav ul{
+  font-size: 1.6rem;
+  display: flex;
+  flex: 9 9 40rem;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+nav ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+
+a:hover{
+  color: rgba(194, 199, 133, 0.845);
+}
+
